@@ -22,20 +22,32 @@ linter website source code
 
 Install Python, Pip, Golang First, and then
 
-```bash
+```sh
 $ git clone https://github.com/kasheemlew/linter.git
 ```
 
 Install pylint and cpplint(both in Google Coding Style)
 
-```bash
+```sh
 $ pip install pylint
 $ pip install cpplint
 ```
 
+Build to present working directory
+
+```sh
+$ make build
+```
+
+Install binary to go-path/bin
+
+```sh
+$ make install
+```
+
 ### with Docker(halted)
 
-```bash
+```sh
 $ git clone https://github.com/kasheemlew/linter.git
 $ docker build -t linter .
 $ docker run --publish 6060:8080 --name linter --rm linter -d
