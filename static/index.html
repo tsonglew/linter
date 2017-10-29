@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Linter</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>Coding Style Check</h1>
+    <form action="/lint/" method="post">
+        <span>
+            <select name="lang">
+                <option>Python</option>
+                <option>Javascript</option>
+                <option>C++</option>
+            </select>
+        </span>
+        <input type="submit" value="submit" class = "submit">
+        <div class="paper">
+            <div class="paper-content">
+                <textarea autofocus name="code">{{ .Code }}</textarea>
+            </div>
+        </div>
+    </form>
+    <div class="paper result">
+        {{ range .Comments }}
+        <p>{{ . }}</p>
+        {{ end }}
+    </div>
+</body>
+
+</html>
