@@ -5,7 +5,16 @@ linter website source code
 ## Support
 
 - [x] Python(pylint)
-- [x] Cpp(cpplint)
+- [x] C++(cpplint)
+- [x] C(cpplint)
+- [] Java
+- [] JavaScript
+- [] Go
+- [] C#
+- [] Ruby
+- [] Swift
+- [] Perl
+- [] Shell
 
 ## Deploy
 
@@ -17,9 +26,11 @@ Install Python, Pip, Golang First, and then
 $ git clone https://github.com/kasheemlew/linter.git
 ```
 
-Install pylint and cpplint(powered by Google Coding Style)
+Install pylint and cpplint(both in Google Coding Style)
 
 ```bash
+$ pip install pylint
+$ pip install cpplint
 ```
 
 ### with Docker(halted)
