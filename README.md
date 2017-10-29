@@ -7,14 +7,14 @@ linter website source code
 - [x] Python(pylint)
 - [x] C++(cpplint)
 - [x] C(cpplint)
-- [] Java
-- [] JavaScript
-- [] Go
-- [] C#
-- [] Ruby
-- [] Swift
-- [] Perl
-- [] Shell
+- [ ] Java
+- [ ] JavaScript
+- [ ] Go
+- [ ] C#
+- [ ] Ruby
+- [ ] Swift
+- [ ] Perl
+- [ ] Shell
 
 ## Deploy
 
@@ -44,4 +44,5 @@ $ docker run --publish 6060:8080 --name linter --rm linter -d
 ## Maintainers
 
 Front-end: Elegenthus
+
 Back-end: kasheemlew

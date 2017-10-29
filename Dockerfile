@@ -7,6 +7,7 @@ ADD . /go/src/github.com/kasheemlew/linter
 # Install app and lints
 RUN go install github.com/kasheemlew/linter
 RUN pip install pylint
+RUN pip isntall cpplint
 
 # Run default when the container starts.
 ENTRYPOINT /go/bin/linter
