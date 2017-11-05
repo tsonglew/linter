@@ -4,6 +4,8 @@ linter website source code
 
 ## Support
 
+Now available on MacOS and Linux
+
 - [x] Python(pylint)
 - [x] C++(cpplint)
 - [x] C(cpplint)
@@ -20,17 +22,10 @@ linter website source code
 
 ### Raw
 
-Install Python, Pip, Golang First, and then
+Install Golang First, and then get the code from GitHub
 
 ```sh
 $ git clone https://github.com/kasheemlew/linter.git
-```
-
-Install pylint and cpplint(both in Google Coding Style)
-
-```sh
-$ pip install pylint
-$ pip install cpplint
 ```
 
 Build to present working directory
